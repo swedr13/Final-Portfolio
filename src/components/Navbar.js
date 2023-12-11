@@ -34,7 +34,10 @@ function NavBar() {
     >
       <Container>
         <Navbar.Brand href="/" className="d-flex">
-          <p className="purple" style={{ fontSize: 30, fontWeight: 800, paddingTop: 10}}>
+          <p
+            className="purple"
+            style={{ fontSize: 30, fontWeight: 800, paddingTop: 10 }}
+          >
             Js
           </p>
         </Navbar.Brand>
@@ -52,7 +55,7 @@ function NavBar() {
           <Nav className="ms-auto" defaultActiveKey="#home">
             <Nav.Item>
               <Nav.Link as={Link} to="/" onClick={() => updateExpanded(false)}>
-              Home
+                Home
               </Nav.Link>
             </Nav.Item>
 
@@ -88,7 +91,7 @@ function NavBar() {
 
             <Nav.Item className="fork-btn">
               <Button
-                href="https://github.com/swedr13/suaybaguio-final-portfolio"
+                href="https://github.com/swedr13/Final-Portfolio"
                 target="_blank"
                 className="fork-btn-inner"
               >
